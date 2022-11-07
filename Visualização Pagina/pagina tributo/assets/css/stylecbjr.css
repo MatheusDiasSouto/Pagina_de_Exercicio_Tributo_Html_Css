@@ -1,0 +1,279 @@
+body{margin: 0;}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    width: 3000px;
+    height: 200px;
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    height: 200px;  
+}
+
+#banner{
+    background-image:url(../imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_column{
+    width: 950px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 248, 147);
+    flex-direction: column;
+}
+
+.retrato img{
+    width: 950px;
+}
+
+.leg_retrato{
+    font-size: 35px;
+    display: flex;
+    color: blue;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container_main{
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.cbjr_tittle{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.cbjr_conteudo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    line-height: 25px;
+}
+
+.morte_tittle{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.morte_conteudo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    line-height: 25px;
+}
+
+.discografia_tittle{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0px;
+    background-color: black;
+}
+
+#discografia{
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.box_albuns_e_estudio,
+.box_albuns_aovivo,
+.box_dvd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.box_albuns_e_estudio{
+    padding-left: 30px;
+}
+
+.lista_albuns_e_estudio{
+    color: orange;
+    display: flex;
+    padding-right: 200px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.conteiner_li{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_li{
+    flex-direction: column;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.lista_albuns_aovivo{
+    color: orange;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 80px;
+    flex-direction: column;
+}
+
+.conteiner_li2{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_li2{
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items: initial;
+    font-size: 20px;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+.lista_dvd{
+    color: orange;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 80px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.conteiner_li3{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_li3{
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items: initial;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+footer{
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    width: auto;
+    height: auto;
+    background-color: orange;
+    background-size: cover;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.copy{
+    display: flex ;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.email_img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+}
+
+.tel a,
+.email a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+}
+
+.contato_email{
+    display: flex;
+    border: 1px solid yellow;
+    margin: 5px;
+    padding: 7px;
+    margin-right: 125px;
+}
+
+.contact_tel_img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+}
+
+.conteudo_tel_contato{
+    display: flex;
+    border: 1px solid yellow;
+    margin: 5px;
+    padding: 7px;
+}
